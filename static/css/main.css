@@ -3,10 +3,11 @@
     margin: 0;
     border: 0;
     font-family: "Open Sans";
+    
 }
 
 body {
-    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #30e8bf, #ff8235);
 }
 
 .form {
@@ -69,7 +70,7 @@ h1 {
 }
 
 .submit_button:hover{
-    transition-duration: 1s;
+    transition-duration: .5s;
     background-color: #ff8235;
     cursor: auto;
 }

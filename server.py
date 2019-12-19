@@ -24,8 +24,7 @@ def add_user(first_name, last_name, email, phone_number, password):
         SQL = """INSERT INTO form(first_name, last_name, email, phone, password) VALUES (?,?,?,?,?);"""
         values = first_name, last_name, email, phone_number, password
         cursor.execute(SQL, values)
-        return jsonify({"status": "success"})
-    return jsonify({"error":"sql insert error"})
+        
 
 if __name__ == "__main__":
     app.run(debug=True)
